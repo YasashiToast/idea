@@ -72,7 +72,8 @@ const ImageCard: React.FC<ImageCardProps> = ({ img, isSelected, onSelect, index 
 
 function App() {
   const [inputText, setInputText] = useState('');
-  const [platform, setPlatform] = useState<Platform>(Platform.XIAOHONGSHU);
+  // Set default to VIDEO_ACCOUNT as it's the first in the new list
+  const [platform, setPlatform] = useState<Platform>(Platform.VIDEO_ACCOUNT);
   
   // Analysis State
   const [isAnalyzing, setIsAnalyzing] = useState(false);

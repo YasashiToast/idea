@@ -1,10 +1,11 @@
 export enum Platform {
-  XIAOHONGSHU = '小红书',
-  WECHAT_MP = '微信公众号',
-  ZHIHU = '知乎',
+  VIDEO_ACCOUNT = '视频号',
+  BILIBILI = 'B站',
+  TENCENT_VIDEO = '腾讯视频',
   TENCENT_NEWS = '腾讯新闻',
-  DOUYIN = '抖音',
-  BILIBILI = 'B站'
+  WECHAT_MP = '公众号',
+  XIAOHONGSHU = '小红书',
+  ZHIHU = '知乎'
 }
 
 export enum ImageSource {
